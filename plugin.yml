@@ -1,0 +1,7 @@
+name: CivHelp
+main: vg.civcraft.mc.civhelp.CivHelpPlugin
+version: 1.0.0
+author: suirad & BlackXnt
+commands:
+    guide:
+      aliases: [gui]
