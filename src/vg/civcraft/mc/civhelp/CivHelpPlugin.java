@@ -23,7 +23,8 @@ public class CivHelpPlugin extends JavaPlugin{
 
 	@Override
 	public void onDisable() {
-		civGuide.onDisable();
+		civGuide.onDisable(); civGuide = null;
+		
 	}
 
 	@Override
@@ -37,5 +38,7 @@ public class CivHelpPlugin extends JavaPlugin{
 		return instance;
 	}
 	
-	
+	public CivGuide getCivGuide(){
+		return civGuide;
+	}
 }
